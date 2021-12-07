@@ -3,7 +3,7 @@
 TO START
 1. git status
 2. git add [files] - подготавливает наши файлы к записи = git add .
-3. git commit -m "comment" - добавления комментарий
+3.   "comment" - добавления комментарий
 4. git log - отображает комментарий // git log --oneline
 5. git push [rep_link] [branch_name] - отправить измения на Git [our_link]
     git push origin main
@@ -25,3 +25,13 @@ main
 develop
 feature/main-page
 feature/about-company
+
+4. - pull request - перенос данных с одной ветки на другую
+   - git pull origin main 
+5.  перенос содной ветки на другую
+- git checkout [название главноеб куда будет идти перенос ветки]
+- git merge [название ветки, откуда мы хотим перенести код]
+-  git push origin main
+
+
+6. git branch -D [name] - удаление ветки
